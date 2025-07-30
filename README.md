@@ -2,7 +2,8 @@
 
 Este proyecto desarrolla un sistema de machine learning para identificar qué clientes tienen mayor probabilidad de cancelar sus servicios en una empresa de telecomunicaciones. A través de un enfoque basado en datos, se busca anticipar el churn y proponer acciones preventivas efectivas.
 ---
-👩‍💻 **Proyecto desarrollado por:** Valeria Fariña Rebolledo
+👩‍💻 **Proyecto desarrollado por:** Valeria Fariña Rebolledo 
+
 📆 Fecha de finalización: 29 de julio de 2025
 ---
 
