@@ -1,16 +1,18 @@
-# 📉 Modelo Predictivo de Cancelación de Clientes en TelecomX
+# 📉 **Modelo Predictivo de Cancelación de Clientes en TelecomX**
 
 Este proyecto desarrolla un sistema de machine learning para identificar qué clientes tienen mayor probabilidad de cancelar sus servicios en una empresa de telecomunicaciones. A través de un enfoque basado en datos, se busca anticipar el churn y proponer acciones preventivas efectivas.
-
+---
+👩‍💻 **Proyecto desarrollado por:** Valeria Fariña Rebolledo
+📆 Fecha de finalización: 29 de julio de 2025
 ---
 
-## 🎯 Propósito
+## 🎯 **Propósito**
 
 Diseñar un pipeline completo de análisis predictivo, que abarque desde la preparación de los datos hasta la evaluación e interpretación de modelos clasificadores. El objetivo principal es facilitar la toma de decisiones estratégicas que reduzcan la tasa de cancelación.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 **Estructura del Proyecto**
 
 | Archivo                          | Descripción                                                  |
 |----------------------------------|--------------------------------------------------------------|
@@ -19,7 +21,7 @@ Diseñar un pipeline completo de análisis predictivo, que abarque desde la prep
 
 ---
 
-## 🔧 Preparación y Tratamiento de Datos
+## 🔧 **Preparación y Tratamiento de Datos**
 
 1. **Normalización del JSON**: conversión de listas y diccionarios en estructuras planas.  
 2. **Limpieza y conversión de tipos**: columnas monetarias a tipo `float`, imputación de nulos con la mediana.  
@@ -32,7 +34,7 @@ Diseñar un pipeline completo de análisis predictivo, que abarque desde la prep
 
 ---
 
-## 🧠 Modelado y Evaluación
+## 🧠 **Modelado y Evaluación**
 
 | Componente       | Descripción                                                                 |
 |------------------|------------------------------------------------------------------------------|
@@ -54,13 +56,13 @@ Diseñar un pipeline completo de análisis predictivo, que abarque desde la prep
 
 ---
 
-## 📊 Visualización
+## 📊 **Visualización**
 
 Se generaron curvas ROC para los tres modelos. Las imágenes se encuentran en la carpeta `img/`.
 
 ---
 
-## 🔍 Comparativa de Modelos
+## 🔍 **Comparativa de Modelos**
 
 | Criterio           | LogReg     | Random Forest | XGBoost     |
 |--------------------|------------|----------------|-------------|
@@ -71,7 +73,7 @@ Se generaron curvas ROC para los tres modelos. Las imágenes se encuentran en la
 
 ---
 
-## 🧪 Sugerencias Técnicas
+## 🧪 **Sugerencias Técnicas**
 
 - Ajustar el **umbral de decisión** para mejorar recall en modelos como LogReg (ej. threshold = 0.35).
 - Implementar **tuning de hiperparámetros** en XGBoost (`scale_pos_weight`) para clases desbalanceadas.
@@ -80,7 +82,7 @@ Se generaron curvas ROC para los tres modelos. Las imágenes se encuentran en la
 
 ---
 
-## 📌 Principales Variables Predictoras
+## 📌 **Principales Variables Predictoras**
 
 | Variable                       | Influencia | Interpretación                                       |
 |--------------------------------|------------|------------------------------------------------------|
@@ -92,7 +94,7 @@ Se generaron curvas ROC para los tres modelos. Las imágenes se encuentran en la
 
 ---
 
-## 🧭 Conclusiones Estratégicas
+## 🧭 **Conclusiones Estratégicas**
 
 - **Ofrecer planes anuales** con beneficios para reducir el churn en contratos mensuales.
 - **Reforzar onboarding** los primeros tres meses del cliente.
@@ -102,7 +104,7 @@ Se generaron curvas ROC para los tres modelos. Las imágenes se encuentran en la
 
 ---
 
-## ▶️ Instrucciones de Ejecución
+## ▶️ **Instrucciones de Ejecución**
 
 1. Instala las dependencias necesarias:
 ```bash
@@ -115,7 +117,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## ⚙️ **Tecnologías utilizadas**
 
 - Python 3.8+
 - pandas, numpy
@@ -124,6 +126,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📎 Licencia
+## 📎 **Licencia**
 
 Este proyecto es de carácter educativo. Los datos provienen de [Alura](https://www.alura.com.br/).
